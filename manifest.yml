@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: mypiapp1234
+  host: mypiapp1234
+  disk_quota: 1024M
+  services:
+  - mypiapp1234-personality_insights
